@@ -15,6 +15,9 @@
 		CF2F155024A56EC2008D917D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2F154E24A56EC2008D917D /* LaunchScreen.storyboard */; };
 		CF2F155B24A56EC2008D917D /* NotesApp_Rakshith_C0776530Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2F155A24A56EC2008D917D /* NotesApp_Rakshith_C0776530Tests.swift */; };
 		CF2F156624A56EC2008D917D /* NotesApp_Rakshith_C0776530UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2F156524A56EC2008D917D /* NotesApp_Rakshith_C0776530UITests.swift */; };
+		CFCDDA1A24A570F6000A0231 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCDDA1924A570F6000A0231 /* Notification.swift */; };
+		CFCDDA1C24A5712E000A0231 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCDDA1B24A5712E000A0231 /* Tags.swift */; };
+		CFCDDA1E24A5715C000A0231 /* Attachement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCDDA1D24A5715C000A0231 /* Attachement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		CF2F156124A56EC2008D917D /* NotesApp_Rakshith_C0776530UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesApp_Rakshith_C0776530UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2F156524A56EC2008D917D /* NotesApp_Rakshith_C0776530UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp_Rakshith_C0776530UITests.swift; sourceTree = "<group>"; };
 		CF2F156724A56EC2008D917D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCDDA1924A570F6000A0231 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		CFCDDA1B24A5712E000A0231 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		CFCDDA1D24A5715C000A0231 /* Attachement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		CF2F154224A56EC1008D917D /* NotesApp_Rakshith_C0776530 */ = {
 			isa = PBXGroup;
 			children = (
+				CFCDDA1824A570B2000A0231 /* Constants */,
 				CF2F154324A56EC1008D917D /* AppDelegate.swift */,
 				CF2F154524A56EC1008D917D /* SceneDelegate.swift */,
 				CF2F154724A56EC1008D917D /* ViewController.swift */,
@@ -126,6 +133,16 @@
 				CF2F156724A56EC2008D917D /* Info.plist */,
 			);
 			path = NotesApp_Rakshith_C0776530UITests;
+			sourceTree = "<group>";
+		};
+		CFCDDA1824A570B2000A0231 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CFCDDA1924A570F6000A0231 /* Notification.swift */,
+				CFCDDA1B24A5712E000A0231 /* Tags.swift */,
+				CFCDDA1D24A5715C000A0231 /* Attachement.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFCDDA1A24A570F6000A0231 /* Notification.swift in Sources */,
 				CF2F154824A56EC1008D917D /* ViewController.swift in Sources */,
 				CF2F154424A56EC1008D917D /* AppDelegate.swift in Sources */,
+				CFCDDA1C24A5712E000A0231 /* Tags.swift in Sources */,
+				CFCDDA1E24A5715C000A0231 /* Attachement.swift in Sources */,
 				CF2F154624A56EC1008D917D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
